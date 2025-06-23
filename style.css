@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height: 100vh; */
+    margin-top: 10vmin;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* to center horizontally */
+    align-items: center; /* to center vertically */
+    flex-direction: column;
+}
+
+#h1{
+    margin-bottom: 3vmin;
+    font-size: 4vmin;
+}
+
+.container{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.game{
+    height: 45vmin;
+    width: 45vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 13vmin;
+    width: 13vmin;
+    border-radius: 1rem; /* for curved border */
+    border: none;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5);
+    font-size: 8vmin;
+    color: #FF8225;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 4vmin;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+    font-family: cursive;
+}
+
+#new-btn{
+    padding: 0.5rem;
+  font-size: 3vmin;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  border: none;
+  font-family: cursive;
+  width: 40vmin;
+  margin-top: 2vmin;
+}
+
+#msg{
+    font-size: 5vmin;
+}
+
+.msg-container{
+
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 10vmin;
+  align-items: center;
+  height: 80vmin;
+}
+
+.hide{
+    display: none;
+}
